@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: "/api/v1"
+
+spring:
+  data:
+    mongodb:
+      host: "localhost"
+      port: "27017"
+      database: "fifa19"
